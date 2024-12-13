@@ -9,10 +9,7 @@ header {
 }
 
 .logo {
-    /* This ensures the logo doesn't exceed its container's width */
-    max-width: 100%;
-    /* This keeps the logo's aspect ratio */
-    height: auto;
+    max-width: 100px;
 }
 
 .sidebar {
@@ -47,12 +44,8 @@ footer {
         margin: 1rem 0;
     }
     .affiliate-placeholder img {
-        max-width: 100%;
-        /* width: 100%; */
+        max-width: 200px;
+        width: 100%;
         height: auto;
-    }
-    .logo {
-        /* Adjust this value to your desired max size on larger screens */
-        max-width: 100px; 
     }
 }
