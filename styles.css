@@ -9,7 +9,10 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    /* This ensures the logo doesn't exceed its container's width */
+    max-width: 100%;
+    /* This keeps the logo's aspect ratio */
+    height: auto;
 }
 
 .sidebar {
@@ -47,5 +50,9 @@ footer {
         max-width: 200px;
         width: 100%;
         height: auto;
+    }
+    .logo {
+        /* Adjust this value to your desired max size on larger screens */
+        max-width: 100px; 
     }
 }

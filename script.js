@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     lazyElements.forEach(el => observer.observe(el));
 
-    // Function to move sidebar affiliates to placeholders on small screens
     function moveAffiliates() {
         const windowWidth = window.innerWidth;
         const affiliatePlaceholders = document.querySelectorAll('.affiliate-placeholder');
@@ -33,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Check on page load and on resize
+    // Run moveAffiliates on initial load and on resize
     moveAffiliates();
     window.addEventListener('resize', moveAffiliates);
 });
