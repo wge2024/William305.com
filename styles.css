@@ -29,7 +29,7 @@ header {
 }
 
 .affiliate-mobile img {
-    max-width: 300px;
+    max-width: 150px;
     width: 100%;
     height: auto;
     border: .10px solid rgb(28, 28, 28); /* Adds a 2px grey border around the images */
