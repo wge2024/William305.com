@@ -9,7 +9,7 @@ header {
 }
 
 .logo {
-    max-width: 100%;
+    max-width: 150px;
     height: auto;
 }
 
@@ -29,9 +29,19 @@ header {
 }
 
 .affiliate-mobile img {
-    max-width: 200px;
+    max-width: 300px;
     width: 100%;
     height: auto;
+    border: .10px solid rgb(28, 28, 28); /* Adds a 2px grey border around the images */
+    /* Ensure the border doesn't affect the layout by using box-sizing */
+    box-sizing: border-box;
+}
+
+.affiliate-sidebar img, .affiliate-placeholder img {
+    border: .5px solid rgb(28, 28, 28); /* Adds a 2px grey border around the images */
+    /* Ensure the border doesn't affect the layout by using box-sizing */
+    border-radius: 3px; /* This will give a slight roundness to the corners */
+    box-sizing: border-box;
 }
 
 footer {
